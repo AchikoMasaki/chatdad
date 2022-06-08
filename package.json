@@ -1,5 +1,5 @@
 {
-  "name": "chat",
+  "name": "chatdad",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,14 +7,28 @@
     "start:dev": "nodemon ./bin/www"
   },
   "dependencies": {
+    "bower": "^1.8.14",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "pug": "^2.0.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "description": "ChatDad",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AchikoMasaki/chatdad.git"
+  },
+  "author": "AchikoMasaki <fatih.muratoglu53@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AchikoMasaki/chatdad/issues"
+  },
+  "homepage": "https://github.com/AchikoMasaki/chatdad#readme"
 }
